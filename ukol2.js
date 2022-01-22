@@ -5,18 +5,25 @@ b) Vaše jméno je Marian, je vám 14 let a tak musíte počkat ještě 4 let,
  */
 
 let jmeno = prompt('Ahoj, jak se jmenujes?');
-let vek = Number( prompt('A kolik je ti let?'));
+let vek = Number(prompt('A kolik je ti let?'));
 let rokyDoRidicaku = 18 - vek;
 
-if vek > 18 {
-  console.log('Vaše jméno je ' + jmeno ' + , je vám ' + vek + ' let a tak máte právo řídit auto.');
-
-}
-  else {
+if (vek > 18) {
   console.log(
-    'Vaše jméno ' + jmeno ' + , je vám ' + vek + ' let a tak musíte počkat ještě ' + rokyDoRidicaku + ' let, než budete moci řídit auto.'
+    'Vaše jméno je ' +
+      jmeno +
+      ' , je vám ' +
+      vek +
+      ' let a tak máte právo řídit auto.'
   );
-
+} else {
+  console.log(
+    'Vaše jméno ' +
+      jmeno +
+      ' , je vám ' +
+      vek +
+      ' let a tak musíte počkat ještě ' +
+      rokyDoRidicaku +
+      ' let, než budete moci řídit auto.'
+  );
 }
-
-
