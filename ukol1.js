@@ -5,8 +5,39 @@ let jmeno = 'Kamila';
 let vek = 30;
 let vaha = 53;
 let vyska = 1.6;
-let BMI = vaha / vyska ** 2; // tohle jde?
+let BMI = vaha / vyska ** 2;
 console.log(BMI);
 console.log(
-  'jmenuji se' + jmeno + ', je mi' + vek + ', vazim' + vaha + ', merim'
+  'Jmenuji se ' +
+    jmeno +
+    ', je mi ' +
+    vek +
+    ' let' +
+    ', vazim ' +
+    vaha +
+    ', merim ' +
+    vyska +
+    'm' +
+    ', a moje BMI je ' +
+    BMI +
+    '.'
 );
+
+let zaokrouhleneBMI = Math.round(BMI);
+console.log(zaokrouhleneBMI);
+
+prompt('ahoj jak se mas?s?');
+
+// Number("445") // 445 cislo
+let odpovedNaVek = Number(prompt('Ahoj kolik je ti let?'));
+console.log(odpovedNaVek);
+
+
+// matematicke + - * ** / %
+ 
+/* 
+logicke promenne 
+&& (A ZAROVEN) 
+|| (NEBO) 
+
+*/ 
